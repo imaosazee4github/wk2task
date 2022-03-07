@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+       <form action="index.html" method="post">
+           <div>
+               <label for="name">Your Name: <sup> * </sup></label><input type="text" name="name" value="" id="input1">
+           </div>
+           <div>
+            <label for="name">Your Email: <sup>*</sup></label><input type="Email" name="name" value="" id="input2" required>
+           </div>
+            <div>
+                <label for="name">Activation Token: <sup>*</sup></label>  <input type="password" name="password" value="" id="input3">
+            </div>
+            <div id="input4a"><b>You agree to the   <a href="#">privacy policy</a></b> <sup> * </sup><input type="checkbox" name="input4" id="input4"></div>
+            <div id="output"></div>
+              <label for="submit"></label>
+            <input type="button" onclick="checkItem()" value="SUBMIT" id="button"/>
+
+   </div> 
+</body>
+   <script src="script.js"></script>
+</html>

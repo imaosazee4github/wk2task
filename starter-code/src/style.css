@@ -1,0 +1,135 @@
+* {
+    box-sizing: content-box;
+   
+}
+
+body {
+    background-color: white;
+    background-image: url(/starter-code/images/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier,;
+    font-weight: 900;
+    font-size: 16px;
+    
+}
+
+.container {
+    background-color:#fa5959;
+    width: 42%;
+    height: 90%;
+    padding: 5px;
+    border-radius: 40px;
+
+    
+
+}
+
+form {
+    color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+sup {
+    color: red;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#input1 {
+    width: 290px;
+    height: 25px;
+    margin-left:67px;
+    margin-bottom: 08px;
+    
+
+}
+
+#input2 {
+    width: 290px;
+    height: 25px;
+    margin-left: 70px;
+    margin-bottom: 08px;
+
+}
+
+#input3 {
+    width: 290px;
+    height: 25px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}
+#input3.success input {
+    border-color: green;
+
+}
+#input3.error input {
+    border-color: red;
+}
+
+#input4 {
+    text-align: center;
+
+}
+
+#input5 {
+    text-align: center;
+
+}
+
+#input1.success input {
+    border-color: green;
+
+}
+#input1.error input {
+    border-color: red;
+}
+#input4a {
+    height: 23px;
+    margin: 15px;
+    width: 300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+
+}
+#input2.success input {
+    border-color: green;
+
+}
+#input2.error input {
+    border-color: red;
+}
+
+ #button {
+    background-color: #fa5959;
+    border-color: white;
+    color:white;
+    border-style: solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    
+    
+}
+
+#output{
+    margin-left: 100px;
+    margin-bottom: 20px;
+   background-color: white;
+   height: 35px;
+   width:320px;
+   color: red;
+   text-align: center;
+   font-family: 'Courier Prime', monospace;
+   font-size: 17px;
+   }
